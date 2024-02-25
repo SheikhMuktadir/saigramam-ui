@@ -1,0 +1,841 @@
+@media (max-width: 991px) {
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 10000;
+  }
+
+  .navigation .nav-link {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .nav-btn {
+    margin-top: 20px;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    left: 0;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .nav-toggle [class*="bar-"] {
+    background: #ff7244;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+    border-radius: 8px;
+    height: 2px;
+    width: 40px;
+    margin-bottom: 8px;
+  }
+
+  .nav-toggle .bar-bot {
+    margin-bottom: 0;
+  }
+
+  .opened .bar-top {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+    transform-origin: 15% 15%;
+  }
+
+  .opened .bar-mid {
+    opacity: 0;
+  }
+
+  .opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+    transform-origin: 15% 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-collapse {
+    width: 75%;
+  }
+
+  .foot-details {
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 12fr;
+    color: #fff;
+  }
+
+  .foot-details div:first-child {
+    padding-bottom: 40px;
+  }
+
+  .achive-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom: 0;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-contact {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .header-contact button {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .header-contact a {
+    font-size: 12px;
+  }
+
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .carousel-caption h2 {
+    font-size: 38px;
+  }
+
+  .carousel-caption p {
+    font-size: 18px;
+  }
+
+  .main-btn {
+    padding: 13px 23px;
+  }
+
+  .social-list {
+    right: 2.5%;
+    bottom: 4%;
+  }
+
+  .main-heading h2,
+  .side-heading h2 {
+    font-size: 25px;
+  }
+
+  .main-heading p {
+    font-size: 13px;
+  }
+
+  .main-heading {
+    padding-bottom: 20px;
+  }
+
+  .history-bg {
+    display: none;
+  }
+
+  .history-img-part {
+    margin: 15px;
+  }
+
+  .history-img {
+    max-width: 100%;
+  }
+
+  .history-txt-part {
+    padding-top: 30px;
+    margin-left: -0px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .main-xl-txt {
+    font-size: 35px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main-lg-txt {
+    font-size: 16px;
+  }
+
+  .main-sm-txt {
+    font-size: 12px;
+  }
+
+  .history-list-part {
+    padding-top: 10px;
+  }
+
+  .history-list-part ul {
+    display: flex;
+  }
+
+  .history-list-part ul li {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .history-list-part ul li::after {
+    display: none;
+  }
+
+  .founder-img-part {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+
+  .founder-main-img {
+    max-width: 100%;
+  }
+
+  .founder-bg-img {
+    left: 15%;
+    max-width: 50px;
+  }
+
+  .founder-line-img {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .founder-txt-part {
+    margin: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .navajeevan-section {
+    margin: 15px;
+    margin-top: -30px;
+  }
+
+  .navajeevan-txt-part {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 40px;
+  }
+
+  .boxes-card {
+    padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bg-txt {
+    display: none;
+  }
+
+  .project-section {
+    margin-top: 70px;
+  }
+
+  .side-heading {
+    padding-bottom: 0px;
+    margin: 15px;
+  }
+
+  .side-heading a {
+    line-height: 40px;
+  }
+
+  .project-card {
+    margin: 15px;
+  }
+
+  .project-card-body p {
+    height: auto;
+    font-size: 13px;
+  }
+
+  .large-card-header {
+    max-width: 100%;
+    height: 480px;
+    margin: 15px;
+    overflow: hidden;
+  }
+
+  .large-card-header img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .large-card-body p {
+    font-size: 13px;
+  }
+
+  .larger-card-section {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .testimonials-card {
+    margin: 15px;
+  }
+
+  .achivement-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .achivement-card {
+    margin: 15px;
+  }
+
+  .achivement-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .achivement-btn {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar-collapse {
+    width: 50%;
+  }
+
+  .achive-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom: 0;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header-contact {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .carousel-caption h2 {
+    font-size: 42px;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+  }
+
+  .main-btn {
+    padding: 15px 28px;
+  }
+
+  .social-list {
+    right: 3.5%;
+    bottom: 5%;
+  }
+
+  .main-heading h2,
+  .side-heading h2 {
+    font-size: 35px;
+  }
+
+  .main-heading p {
+    font-size: 15px;
+  }
+
+  .main-heading {
+    padding-bottom: 25px;
+  }
+
+  .history-bg {
+    display: none;
+  }
+
+  .history-img {
+    max-width: 100%;
+  }
+
+  .history-txt-part {
+    padding-top: 30px;
+    margin-left: -0px;
+    text-align: center;
+  }
+
+  .main-xl-txt {
+    font-size: 40px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main-lg-txt {
+    font-size: 20px;
+  }
+
+  .main-sm-txt {
+    font-size: 16px;
+  }
+
+  .history-list-part {
+    padding-top: 20px;
+  }
+
+  .history-list-part ul {
+    display: flex;
+  }
+
+  .history-list-part ul li {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .history-list-part ul li::after {
+    display: none;
+  }
+
+  .founder-img-part {
+    display: flex;
+    justify-content: center;
+  }
+
+  .founder-main-img {
+    max-width: 100%;
+  }
+
+  .founder-bg-img {
+    left: 30%;
+    max-width: 50px;
+  }
+
+  .founder-line-img {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .founder-txt-part {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .navajeevan-section {
+    margin-top: -30px;
+  }
+
+  .navajeevan-txt-part {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 40px;
+  }
+
+  .boxes-card {
+    padding: 30px 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bg-txt {
+    display: none;
+  }
+
+  .project-section {
+    margin-top: 80px;
+  }
+
+  .side-heading {
+    padding-bottom: 0px;
+    margin: 15px;
+  }
+
+  .side-heading a {
+    line-height: 40px;
+  }
+
+  .project-card {
+    margin-bottom: 25px;
+  }
+
+  .project-card-body p {
+    height: auto;
+    font-size: 13px;
+  }
+
+  .large-card-header {
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    overflow: hidden;
+  }
+
+  .large-card-header img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .large-card-body p {
+    font-size: 13px;
+  }
+
+  .larger-card-section {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .testimonials-card {
+    margin-bottom: 25px;
+  }
+
+  .achivement-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .achivement-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .achivement-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .achivement-btn {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .navbar-collapse {
+    width: 40%;
+    padding-top: 60px;
+  }
+
+  .achive-btn {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom: 0;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header-contact {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .carousel-caption h2 {
+    font-size: 45px;
+  }
+
+  .carousel-caption p {
+    font-size: 20px;
+  }
+
+  .main-btn {
+    padding: 18px 30px;
+  }
+
+  .social-list {
+    right: 3.5%;
+    bottom: 5%;
+  }
+
+  .main-heading h2,
+  .side-heading h2 {
+    font-size: 35px;
+  }
+
+  .main-heading p {
+    font-size: 15px;
+  }
+
+  .main-heading {
+    padding-bottom: 30px;
+  }
+
+  .history-bg {
+    display: none;
+  }
+
+  .history-img {
+    max-width: 100%;
+  }
+
+  .history-txt-part {
+    padding-top: 30px;
+    margin-left: -0px;
+    text-align: center;
+  }
+
+  .main-xl-txt {
+    font-size: 40px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .main-lg-txt {
+    font-size: 20px;
+  }
+
+  .main-sm-txt {
+    font-size: 16px;
+  }
+
+  .history-list-part {
+    padding-top: 25px;
+  }
+
+  .history-list-part ul {
+    display: flex;
+  }
+
+  .history-list-part ul li {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .history-list-part ul li::after {
+    display: none;
+  }
+
+  .founder-img-part {
+    display: flex;
+    justify-content: center;
+  }
+
+  .founder-main-img {
+    max-width: 100%;
+  }
+
+  .founder-bg-img {
+    left: 30%;
+    max-width: 50px;
+  }
+
+  .founder-line-img {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .founder-txt-part {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .navajeevan-section {
+    margin-top: -30px;
+  }
+
+  .navajeevan-txt-part {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .boxes {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-top: 40px;
+  }
+
+  .boxes-card {
+    padding: 40px 10px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .bg-txt {
+    display: none;
+  }
+
+  .project-section {
+    margin-top: 100px;
+  }
+
+  .side-heading {
+    padding-bottom: 0px;
+  }
+
+  .side-heading a {
+    line-height: 40px;
+  }
+
+  .project-card {
+    margin-bottom: 25px;
+  }
+
+  .project-card-body p {
+    height: auto;
+    font-size: 13px;
+  }
+
+  .large-card-header {
+    max-width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    overflow: hidden;
+  }
+
+  .large-card-header img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .large-card-body p {
+    font-size: 13px;
+  }
+
+  .larger-card-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .testimonials-card {
+    margin-bottom: 25px;
+  }
+
+  .achivement-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .achivement-card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .achivement-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .achivement-btn {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navigation .nav-link {
+    font-size: 13px;
+  }
+
+  .main-btn {
+    font-size: 13px;
+  }
+
+  .main-sm-txt {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .boxes-card {
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+  }
+
+  .boxes-card span:first-child {
+    font-size: 15px;
+  }
+
+  .boxes-card sub {
+    font-size: 11px;
+  }
+
+  .bg-txt {
+    font-size: 160px;
+  }
+
+  .project-card-body p {
+    font-size: 13px;
+  }
+
+  .large-card-header {
+    max-width: 100%;
+    height: 480px;
+    position: relative;
+    transition: all 0.3s linear;
+  }
+
+  .large-card-header img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+}
